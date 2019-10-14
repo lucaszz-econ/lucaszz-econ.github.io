@@ -3,8 +3,8 @@ layout: page
 title: Research
 ---
 
-
-**Works in Progress**
-* High-dimensional Conditional Density.
+**Works in Progress**'
+* Post-Lasso Density Estimation Using Orthonomal Series. 
+* Data-Driven High Dimensional Conditional Density Estimation.
 * Deep Neural Network and Bootstrap.
-* Student Loan and Family Income.
+* Effect of Family Income on Student Loans.
