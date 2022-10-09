@@ -1,4 +1,6 @@
 ---
 layout: page
-title: [CV](/notes/cv.pdf)
+title: CV
 ---
+
+[CV](/notes/cv.pdf)
