@@ -11,7 +11,7 @@ title: Research
 
 **Working Papers**
 
-* Approximate Sparsity Class and Minimax Estimation. [Link](/notes/minimax_joe.pdf)
+* Approximate Sparsity Class and Minimax Estimation. (Under revision. See [link](/notes/minimax_joe.pdf) for an older version.)
 
 
 **Works in Progress**
