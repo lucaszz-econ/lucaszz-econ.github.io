@@ -5,4 +5,4 @@ title: Notes
 
 
 **Empirical Process**
-* [Empirical Process Cheatsheet](/notes/empirical_process/empirical_process.pdf)
+* [Empirical Process Short Notes](/notes/empirical_process/empirical_process.pdf)
