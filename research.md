@@ -3,8 +3,11 @@ layout: page
 title: Research
 ---
 
+**Job Market Paper**
+* Cross-Validated Conditional Density Estimation with an Application to Nonparametric Continuous Difference-in-Differences Models. (draft coming soon!)
+
+**Working Papers**
+* Approximate Sparsity Class and Minimax Estimation.
+
 **Works in Progress**
-* Minimax Post-Lasso Density Estimation Using Orthonormal Series. 
-* ML High Dimensional Conditional Density Estimation.
-* Deep Neural Network and Bootstrap.
-* Effect of Family Income on Student Loans.
+* Deep Neural Network and Bootstrap (with Mingli Chen and Oscar H. Madrid-Padilla).
