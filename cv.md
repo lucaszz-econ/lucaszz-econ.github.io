@@ -3,4 +3,4 @@ layout: page
 title: CV
 ---
 
-This page will be about CV.
+* [CV](/notes/CV.pdf)
