@@ -7,7 +7,7 @@
 .grid-2{
     display: grid;
     width: 100%;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 500px auto;
     grid-column-gap: 50px;
     flex-grow: 1;
     @media(max-width: 38em){
