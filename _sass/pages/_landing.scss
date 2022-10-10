@@ -9,7 +9,7 @@
     width: 100%;
     grid-template-columns: 300px auto;
     grid-column-gap: 50px;
-    flex-grow: 1;
+    flex-grow: 2;
     @media(max-width: 38em){
         grid-template-columns: 1fr;
     }
