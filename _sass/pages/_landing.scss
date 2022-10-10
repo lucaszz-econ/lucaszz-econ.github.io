@@ -8,7 +8,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: 300px auto;
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
     flex-grow: 1;
     @media(max-width: 38em){
         grid-template-columns: 1fr;
@@ -17,7 +17,7 @@
 
 .landing-page{
 	margin: auto;
-    padding-left: 10%;
+    padding-left: 5%;
 	@media(max-width: 38em) {
     padding-left: 0;
 	}
