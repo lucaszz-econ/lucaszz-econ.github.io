@@ -10,7 +10,7 @@
     grid-template-columns: 200px auto;
     grid-column-gap: 50px;
     flex-grow: 1;
-    @media(max-width: 50em){
+    @media(max-width: 38em){
         grid-template-columns: 1fr;
     }
 }
@@ -18,7 +18,7 @@
 .landing-page{
 	margin: auto;
     padding-left: 10%;
-	@media(max-width: 50em) {
+	@media(max-width: 38em) {
     padding-left: 0;
 	}
 }
@@ -28,7 +28,7 @@
 	text-align:center;
 	display:block;
 	@media(max-width: 38em) {
-		width: 100%;
+		width: 50%;
 	}
 }
 
