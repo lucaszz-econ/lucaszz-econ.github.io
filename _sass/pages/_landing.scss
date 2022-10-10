@@ -41,14 +41,14 @@
 
 .landing-content{
 	padding-top: 10vh;
-    width: 80%;
+    	width: 80%;
 	test-align: justify;
 	text-justify: inter-word;
-    @media(max-width: 38em){
+    	@media(max-width: 38em){
         padding-top: 0;
         test-align: center;
         width: 100%;
-    }
+    	}
 }
 
 .section-1{
