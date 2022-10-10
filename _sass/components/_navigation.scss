@@ -29,7 +29,27 @@
       padding: $nav-link-padding-y $nav-link-padding-x;
     }
   }
+ 
+  li.name {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 30%;
 
+    @media (max-width: 800px) {
+    margin-right: 2rem;
+  }
+
+    a {
+      color: $nav-link-color;
+      display: block;
+      test-decoration: none;
+      font-weight: bold;
+      font-size: x-large;
+      padding: $nav-name-padding-y $nav-name-padding-x;
+    }
+
+  }
+ 
   li.logo a {
     color: $nav-icon-color;
     background: $nav-icon-background-color;
