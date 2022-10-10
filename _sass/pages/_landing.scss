@@ -10,7 +10,7 @@
     grid-template-columns: 200px auto;
     grid-column-gap: 50px;
     flex-grow: 1;
-    @media(max-width: 38em){
+    @media(max-width: 50em){
         grid-template-columns: 1fr;
     }
 }
@@ -18,7 +18,7 @@
 .landing-page{
 	margin: auto;
     padding-left: 10%;
-	@media(max-width: 38em) {
+	@media(max-width: 50em) {
     padding-left: 0;
 	}
 }
@@ -27,7 +27,7 @@
 	margin: auto;
 	text-align:center;
 	display:block;
-	@media(max-width: 38em) {
+	@media(max-width: 50em) {
 		width: 50%;
 	}
 }
@@ -44,7 +44,7 @@
     	width: 80%;
 	test-align: justify;
 	text-justify: inter-word;
-    	@media(max-width: 38em){
+    	@media(max-width: 50em){
         padding-top: 0;
         test-align: center;
         width: 100%;
@@ -54,14 +54,14 @@
 .section-1{
     padding-top: 10vh;
     text-align: center;
-    @media(max-width: 38em){
+    @media(max-width: 50em){
         padding-top: 0;
     }
 }
 
 .section-1 p{
     font-size: 0.8rem;
-    @media(max-width: 38em){
+    @media(max-width: 50em){
         font-size: 1.2rem 
     }
 }
