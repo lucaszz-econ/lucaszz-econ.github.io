@@ -8,7 +8,7 @@ title: Teaching
 * Undergraduate
 
    * Introduction to Econometrics, Summer 2020, 2021, 2022 
-   * [Teaching Evaluation](/intructor_eval.pdf)
+   * [Teaching Evaluation](/instructor_eval.pdf)
 
 
 **Teaching Assistant, UCLA**
