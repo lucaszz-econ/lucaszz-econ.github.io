@@ -3,12 +3,23 @@ layout: page
 title: Teaching
 ---
 
-**Instructor**
+**Instructor, UCLA**
 
-* Introduction to Econometrics, Summer 2020, 2021, 2022 (Undergraduate, UCLA)
+* Undergraduate
+
+   * Introduction to Econometrics, Summer 2020, 2021, 2022 
+   * [Teaching Evaluation](/intructor_eval.pdf)
 
 
-**Teaching Assistant**
+**Teaching Assistant, UCLA**
 
-* Introduction to Econometrics; Intermediate Microeconomics; Pricing and Strategy (Undergraduate, UCLA)
-* Econometrics: Linear Models and Nonparametric Methods (PhD Courses, UCLA)
+* Undergraduate
+
+   * Introduction to Econometrics; 
+   * Intermediate Microeconomics; 
+   * Pricing and Strategy
+   
+* Graduate (First Year PhD Courses)
+
+   * Econometrics: Linear Models
+   * Econometrics: Nonparametric Methods
