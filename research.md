@@ -7,8 +7,8 @@ title: Research
 
 * Cross-Validated Conditional Density Estimation with an Application to Nonparametric Continuous Difference-in-Differences Models. 
 
-   **Draft coming soon!**
-
+   **Abstract**: In this paper, we study the conditional density estimation based on a representation using the orthonormal series expansion. In this series representation, each term takes the form of a multiplication of the basis term and its conditional expectation. For high-dimensional conditioning variables with suitable structures, these conditional expectations can be estimated using various machine learning methods. We propose a data-driven method of selecting the series terms based on a modified cross-validation procedure and we establish an oracle inequality on the estimation error of such estimator. The conditional densities have a wide range of applications in various fields in economics, and we add to this literature a new application of nonparametric difference-in-differences models with continuous treatments. For this application, we establish the identification, estimation, and inference results under the double/debiased machine learning framework, and we illustrate our methods by revisiting an empirical study (Duflo (2001)) of a large policy intervention in Indonesia. 
+   
 
 **Working Papers**
 
