@@ -13,8 +13,8 @@
     @media(max-width: 38em){
         grid-template-columns: 1fr;
     }
+    justify-items: center;
     align-items: center;
-    justify-content: center;
 }
 
 .landing-page{
