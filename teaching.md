@@ -15,11 +15,13 @@ title: Teaching
 
 * Undergraduate
 
-   * Introduction to Econometrics; 
-   * Intermediate Microeconomics; 
-   * Pricing and Strategy
+   * Econ 103: Introduction to Econometrics; 
+   * Econ 11: Intermediate Microeconomics; 
+   * Econ 106P: Pricing and Strategy
    
-* Graduate (First Year PhD Courses)
+* Graduate (PhD Econometrics Courses)
 
-   * Econometrics: Linear Models
-   * Econometrics: Nonparametric Methods
+   * Econ 203B: Linear Models
+   * Econ 203C: Nonparametric Methods
+
+* Best TA Awards: 2018, 2020, 2021, 2022
