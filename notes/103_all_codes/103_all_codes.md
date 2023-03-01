@@ -877,17 +877,19 @@ print(results.summary())
   - number of observations
   
   
-  - $R^2$ and adjusted-$R^2$
+  - $R^2$ and adjusted $R^2$
   
   
-  - The `coef` column contains the estimated regression coefficients. For example, the estimated coefficient on `intercept` is $\hat\beta_0$, the coefficient on `educ` is $\hat\beta_1$.
+  - The `coef` column contains the estimated regression coefficients. For example, the estimated coefficient on `intercept` is $\hat{\beta}_0$, the coefficient on `educ` is $\hat{\beta}_1$.
   
   
-  - The `std err` column contains the standard error of the estimates of regression coefficients, namely, $SE(\hat\beta_0)$ and $SE(\hat\beta_1)$
+  - The `std err` column contains the standard error of the estimates of regression coefficients, namely, $SE(\hat{\beta}_0)$ and $SE(\hat{\beta}_1)$
   
   
-  - The `z` column calculates the t-statistic under two-sided null hypothesis that the true coefficient $\beta_j = 0$, for $j=0,1$. For example, the `z` for the estimated coefficent $\hat\beta_1$ on `educ` is calculated by
-  $$ \frac{\hat\beta_1 - \beta_1}{SE(\hat\beta_1)} = \frac{\hat\beta_1 - 0}{SE(\hat\beta_1)} = \frac{ 1.9266}{0.276} =  6.974$$
+  - The `z` column calculates the t-statistic under two-sided null hypothesis that the true coefficient $\beta_j = 0$, for $j=0,1$. For example, the `z` for the estimated coefficent $\hat{\beta}_1$ on `educ` is calculated by
+  
+  $$\frac{\hat{\beta}_1 - \beta_1 }{SE(\hat{\beta}_1)} = \frac{\hat{\beta}_1 - 0}{SE(\hat{\beta}_1)} = \frac{1.9266}{0.276} =  6.974$$
+  
   the letter `z` is used to reference that here the t-statistic has an approximately standard normal distribution, which we usually use $Z$ as the letter for $N(0,1)$. 
   
   
@@ -901,17 +903,18 @@ print(results.summary())
 
 Recall our regression output is
 
-\begin{align*}
-\widehat{\text{hrwage}} &= -12.5953 + 1.9266\times \text{educ}\\
-&~~~~~~~~(3.597)~~~~~~~(0.276)\\
-\end{align*}
+
+$$ \widehat{\text{hrwage}} = -12.5953 + 1.9266\times \text{educ}$$
+
+$$\quad\quad(3.597)\quad\quad(0.276)$$
+
 
 where in the above expression, the value inside parentheses under each coefficient is the standard error of that coefficient. `hrwage` is the hourly wage and `educ` is the years of education.
 
 
   - How to interpret the coefficient on `educ`?
   
-    - on average, one additional year of education is associated with $\$1.9266$ increase on hourly wage.
+    - on average, one additional year of education is associated with $1.9266$ dollars increase on hourly wage.
     
   
   - What's the t-statistic on the coefficient on `educ` for $H_0: \beta_1 = 0$ vs. $H_1:\beta_1\neq 0$?
@@ -928,11 +931,13 @@ where in the above expression, the value inside parentheses under each coefficie
   - What's 95\% confidence interval for $\beta_1$?
     - we can either read that off the regression table: $[1.385,2.468]$
     - or calculate it by hand:
-    \begin{align*}
-    &[\hat{\beta}_1 - 1.96*SE(\hat\beta_1),\hat{\beta}_1 + 1.96*SE(\hat\beta_1)]\\
-    \iff & [1.9266 - 1.96*0.276, 1.9266 + 1.96*0.276]\\
-    \iff & [1.385,2.468]
-    \end{align*}
+    
+    $[\hat{\beta}_1 - 1.96\cdot SE(\hat{\beta}_1),\hat{\beta}_1 + 1.96\cdot SE(\hat{\beta}_1)]$
+    
+    $\iff \quad [1.9266 - 1.96\cdot 0.276, 1.9266 + 1.96\cdot 0.276]$
+    
+    $\iff \quad [1.385,2.468]$
+    
     which is the same result as in the table.
 
 ## Plot the Regression Line
@@ -2220,11 +2225,11 @@ $$
 
 and we are interested in testing joint hypotheses, for example:
 
-  - $ H_0: \beta_0 = \beta_1 = \beta_2 = \cdots = \beta_k = 0 $  vs.  $ H_1:~\text{at least one of the}~\beta_j\neq 0$
+  - $H_0: \beta_0 = \beta_1 = \beta_2 = \cdots = \beta_k = 0$  vs.  $H_1:\ \text{at least one of the}\ \beta_j\neq 0$
   
-  - $ H_0: \beta_2 = \beta_3 $  vs.  $H_1: \beta_2 \neq\beta_3$
+  - $H_0: \beta_2 = \beta_3$  vs.  $H_1: \beta_2 \neq\beta_3$
   
-  - $ H_0: \beta_1 = 2, \beta_2 = 3, \beta_3 = 5 $  vs. $H_1:~\text{at least one of the contraint in null is false}$
+  - $H_0: \beta_1 = 2, \beta_2 = 3, \beta_3 = 5$  vs. $H_1:\ \text{at least one of the contraint in null is false}$
   
 How do we test hypothesis like this in Python? Luckily we have a well written package from stats models. We made up an example below to show you how to test such hypothesis.
 
@@ -2234,7 +2239,7 @@ $$
 \text{log wage} = \beta_0 + \beta_1 \text{educ} + \beta_2 \text{potential experience} + \beta_3 (\text{potential experience})^2 + \beta_4 \text{female} + \beta_5 \text{white}  + \text{residual}
 $$
 
-and we want to test the hypotheses: $H_0: \beta_1 = 0, \beta_2 = 2, \beta_4 = \beta_5$  vs.  $H_1:~\text{at least one of the contraint in null is false}$.
+and we want to test the hypotheses: $H_0: \beta_1 = 0, \beta_2 = 2, \beta_4 = \beta_5$  vs.  $H_1:\ \text{at least one of the contraint in null is false}$.
 
 
 
