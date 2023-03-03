@@ -7,17 +7,17 @@ title: Python Projects
 1. Cross-Validated High-dimensional Conditional Density (*Coming Soon!*)
 
 
-<br><br>
+
 ---
 2. Difference-in-Differences Models with Continuous Treatment (*Coming Soon!*)
 
 
-<br><br>
+
 ---
 3. Approximate Sparsity Class and Minimax Estimation (*Coming Soon!*)
 
 
-<br><br>
+
 ---
 4. Introduction to Econometrics [[link]](/notes/103_all_codes.html){:target="_blank" rel="noopener"}
 
@@ -30,8 +30,6 @@ title: Python Projects
    > - special topics
    
 
-
-<br><br>
 ---
 5. Consumer Preferences, Choices, and Counterfactuals [[link]](/notes/Urban_Replication_Project.html){:target="_blank" rel="noopener"}
    
