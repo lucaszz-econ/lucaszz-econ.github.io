@@ -4,8 +4,16 @@ title: Python Projects
 ---
 
 
-- Cross-Validated High-dimensional Conditional Density (*Coming Soon!*)
+- Cross-Validated High-dimensional Conditional Density Estimation [[link]](/notes/amcv.html){:target="_blank" rel="noopener"}
 
+   > - code of the first part of my job market paper
+   > 
+   > - A unified framework for estimating conditional density with *high-dimensional* covariates
+   >   - new representation: conditional density `==` *many* conditional means
+   >   - allowing for any machine learners of conditional means (e.g `sklearn`)
+   >   - The estimator is fully data-driven, achieved through *cross-validation* 
+   >   - new metric/loss for cross-validation, easy to implement
+   >   - theoretical guarantee for the optimality
 
 
 <br><br>
