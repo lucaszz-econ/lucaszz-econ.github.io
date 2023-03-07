@@ -9,7 +9,7 @@ title: Python Projects
    > - code of the first part of my job market paper
    > 
    > - A unified framework for estimating conditional density with *high-dimensional* covariates
-   >   - new representation: conditional density `==` *many* conditional means
+   >   - new representation: conditional density `~` *many* conditional means
    >   - allowing for any machine learners of conditional means (e.g `sklearn`)
    >   - The estimator is fully data-driven, achieved through *cross-validation* 
    >   - new metric/loss for cross-validation, easy to implement
@@ -22,7 +22,14 @@ title: Python Projects
 
 
 <br><br>
-- Approximate Sparsity Class and Minimax Estimation (*Coming Soon!*)
+- Approximate Sparsity Class and Minimax Estimation [[link]](/notes/minimax_series.html){:target="_blank" rel="noopener"}
+
+   > - code my PhD second year paper, which establish various theoretical results of a new type of sparisty
+   >   - particularly, complexity (metric entropy) and minimax rates are established
+   >   - we show LASSO (as a selection mechanism) the density subset is still optimal
+   >   - data-driven LASSO threshold is based on a maximal inequality
+   >   - the code implements the theoretical results
+   >   - post-processing algorithms and additional Monte-Carlo simulations are provded
 
 
 
