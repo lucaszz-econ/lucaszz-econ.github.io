@@ -3,8 +3,8 @@ layout: page
 title: Projects (Code in Python)
 ---
 
-
-- Cross-Validated High-dimensional Conditional Density Estimation [[link]](/notes/amcv.html){:target="_blank" rel="noopener"}
+<br/>
+Cross-Validated High-dimensional Conditional Density Estimation [[link]](/notes/amcv.html){:target="_blank" rel="noopener"}
 
    > A unified framework for estimating conditional density with **high-dimensional** covariates
    >
@@ -14,9 +14,8 @@ title: Projects (Code in Python)
    > - new metric/loss for **cross-validation**, easy to implement
    > - theoretical guarantee for the **optimality**
 
-<p>&nbsp;</p>
-
-- Difference-in-Differences Models with Continuous Treatment [[link]](/notes/Continuous_DiD.html){:target="_blank" rel="noopener"}
+<br/>
+Difference-in-Differences Models with Continuous Treatment [[link]](/notes/Continuous_DiD.html){:target="_blank" rel="noopener"}
 
    > Extending the **diff-in-diff** framework to **continuous treatment**
    > 
@@ -26,9 +25,8 @@ title: Projects (Code in Python)
    > - the estimator is **asymptotically normal** with explicit asymptotic variance 
    > - bonus **multiplier bootstrap** confidence interval
 
-<p>&nbsp;</p>
-
-- Approximate Sparsity Class and Minimax Estimation [[link]](/notes/minimax_series.html){:target="_blank" rel="noopener"}
+<br/>
+Approximate Sparsity Class and Minimax Estimation [[link]](/notes/minimax_series.html){:target="_blank" rel="noopener"}
 
    > Proposing a new type of sparisty: **approximate sparsity**
    > 
@@ -38,9 +36,8 @@ title: Projects (Code in Python)
    > - simple code that implements the theoretical results
    > - **post-processing algorithm** and additional Monte-Carlo simulations are provded
 
-<p>&nbsp;</p>
-
-- Consumer Preferences, Choices, and Counterfactuals [[link]](/notes/Urban_Replication_Project.html){:target="_blank" rel="noopener"}
+<br/>
+Consumer Preferences, Choices, and Counterfactuals [[link]](/notes/Urban_Replication_Project.html){:target="_blank" rel="noopener"}
    
    > Implementation of Bayer, Ferreira, and McMillan (2007) in Python
    >
@@ -48,9 +45,8 @@ title: Projects (Code in Python)
    >  - **contraction mapping**
    >  - **counterfactual** estimation
 
-<p>&nbsp;</p>
-
-- Introduction to Econometrics [[link]](/notes/103_all_codes.html){:target="_blank" rel="noopener"}
+<br/>
+Introduction to Econometrics [[link]](/notes/103_all_codes.html){:target="_blank" rel="noopener"}
    
    > Jupyter Notebook for undergraduate econometrics course at UCLA:
    > 
@@ -58,5 +54,4 @@ title: Projects (Code in Python)
    > - linear regressions and hypothesis testing (`statsmodels`)
    > - basic plotting (`matplotlib`)
    > - special topic(s) (diff-in-diff)
-   
    
