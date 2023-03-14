@@ -6,7 +6,7 @@ title: Python Projects
 
 - Cross-Validated High-dimensional Conditional Density Estimation [[link]](/notes/amcv.html){:target="_blank" rel="noopener"}
 
-   > - code of the first part of my job market paper
+   > - code for the first part of my job market paper
    > 
    > - A unified framework for estimating conditional density with *high-dimensional* covariates
    >   - new representation: conditional density `~` *many* conditional means
@@ -17,14 +17,23 @@ title: Python Projects
 
 
 <br><br>
-- Difference-in-Differences Models with Continuous Treatment (*Coming Soon!*)
+- Difference-in-Differences Models with Continuous Treatment [[link]](/notes/Continuous_DiD.html){:target="_blank" rel="noopener"}
+
+   > - code for the second part of my job market paper
+   > 
+   > - Extending the diff-in-diff framework to continuous treatment variables
+   >   - estimating *average treatment effect on treated* (ATT) at any continuous treatment intensity
+   >   - under double/debiased machine learning (DML) framework: debiased score + crossfitting
+   >   - can accommodate high-dimensional covariates
+   >   - the estimator is asymptotically normal with explicit asymptotic variance 
+   >   - bonus multiplier bootstrap confidence interval
 
 
 
 <br><br>
 - Approximate Sparsity Class and Minimax Estimation [[link]](/notes/minimax_series.html){:target="_blank" rel="noopener"}
 
-   > - code my PhD second year paper, which establish various theoretical results of a new type of sparisty
+   > - code for my PhD second year paper, which establish various theoretical results of a new type of sparisty
    >   - particularly, complexity (metric entropy) and minimax rates are established
    >   - we show LASSO (as a selection mechanism) the density subset is still optimal
    >   - data-driven LASSO threshold is based on a maximal inequality
@@ -44,7 +53,7 @@ title: Python Projects
    > - basic plotting (`matplotlib`)
    > - special topics
    
-
+   
 <br><br>
 - Consumer Preferences, Choices, and Counterfactuals [[link]](/notes/Urban_Replication_Project.html){:target="_blank" rel="noopener"}
    
