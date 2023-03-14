@@ -6,8 +6,6 @@ title: Python Projects
 
 - Cross-Validated High-dimensional Conditional Density Estimation [[link]](/notes/amcv.html){:target="_blank" rel="noopener"}
 
-   > - code for the first part of my job market paper
-   > 
    > - A unified framework for estimating conditional density with *high-dimensional* covariates
    >   - new representation: conditional density `~` *many* conditional means
    >   - allowing for any machine learners of conditional means (e.g `sklearn`)
@@ -19,8 +17,6 @@ title: Python Projects
 <br><br>
 - Difference-in-Differences Models with Continuous Treatment [[link]](/notes/Continuous_DiD.html){:target="_blank" rel="noopener"}
 
-   > - code for the second part of my job market paper
-   > 
    > - Extending the diff-in-diff framework to continuous treatment variables
    >   - estimating *average treatment effect on treated* (ATT) at any continuous treatment intensity
    >   - under double/debiased machine learning (DML) framework: debiased score + crossfitting
