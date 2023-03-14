@@ -14,7 +14,7 @@ title: Projects (Code in Python)
    > - new metric/loss for **cross-validation**, easy to implement
    > - theoretical guarantee for the **optimality**
 
-<br/>
+<p>&nbsp;</p>
 
 - Difference-in-Differences Models with Continuous Treatment [[link]](/notes/Continuous_DiD.html){:target="_blank" rel="noopener"}
 
@@ -26,7 +26,7 @@ title: Projects (Code in Python)
    > - the estimator is **asymptotically normal** with explicit asymptotic variance 
    > - bonus **multiplier bootstrap** confidence interval
 
-<br/>
+<p>&nbsp;</p>
 
 - Approximate Sparsity Class and Minimax Estimation [[link]](/notes/minimax_series.html){:target="_blank" rel="noopener"}
 
@@ -38,7 +38,7 @@ title: Projects (Code in Python)
    > - simple code that implements the theoretical results
    > - **post-processing algorithm** and additional Monte-Carlo simulations are provded
 
-<br/>
+<p>&nbsp;</p>
 
 - Consumer Preferences, Choices, and Counterfactuals [[link]](/notes/Urban_Replication_Project.html){:target="_blank" rel="noopener"}
    
@@ -48,7 +48,7 @@ title: Projects (Code in Python)
    >  - **contraction mapping**
    >  - **counterfactual** estimation
 
-<br/>
+<p>&nbsp;</p>
 
 - Introduction to Econometrics [[link]](/notes/103_all_codes.html){:target="_blank" rel="noopener"}
    
