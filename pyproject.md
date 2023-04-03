@@ -34,7 +34,7 @@ title: Projects (Code in Python)
   - LASSO (as a selection mechanism) is still optimal
   - data-driven LASSO threshold based on a maximal (Talagrand's) inequality
   - simple code that implements the theoretical results
-  - post-processing algorithm and additional Monte-Carlo simulations are provded
+  - post-processing algorithm and additional Monte-Carlo simulations are provided
 
 <br/>
 **Consumer Preferences, Choices, and Counterfactuals** [[link]](/notes/Urban_Replication_Project.html){:target="_blank" rel="noopener"}
