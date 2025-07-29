@@ -3,4 +3,4 @@ layout: page
 title: CV
 ---
 
-[CV](/notes/CV.pdf)
+[CV](/notes/cv.pdf)
