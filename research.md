@@ -20,4 +20,4 @@ title: Research
 <br/>
 **Working in Progress**
 
-* An Oracle for Data-Driven High-Dimensional Conditional Density Estimation. *(Forthcoming!)* [[Dissertation version]](https://escholarship.org/uc/item/9163f0mg){:target="_blank" rel="noopener"}
+* An Oracle for Data-Driven High-Dimensional Conditional Density Estimation. *(Forthcoming!)* [[dissertation version]](https://escholarship.org/uc/item/9163f0mg){:target="_blank" rel="noopener"}
