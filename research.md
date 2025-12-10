@@ -19,11 +19,11 @@ title: Research
 
 **Working Papers**
 
-* Difference-in-Differences with Time-Varying Continuous Treatments Using Double/Debiased Machine Learning. [[link]](https://arxiv.org/abs/2410.21105){:target="_blank" rel="noopener"} Joint work with [Michel F. C. Haddad](https://www.qmul.ac.uk/sbm/staff/academic/profiles/haddadm.html){:target="_blank" rel="noopener"} and [Martin Huber](https://www.unifr.ch/directory/en/people/7260/c8d1a){:target="_blank" rel="noopener"}. 
+* Difference-in-Differences with Time-Varying Continuous Treatments Using Double/Debiased Machine Learning. [[Link]](https://arxiv.org/abs/2410.21105){:target="_blank" rel="noopener"} Joint work with [Michel F. C. Haddad](https://www.qmul.ac.uk/sbm/staff/academic/profiles/haddadm.html){:target="_blank" rel="noopener"} and [Martin Huber](https://www.unifr.ch/directory/en/people/7260/c8d1a){:target="_blank" rel="noopener"}. 
 
   **Abstract**: We propose a diﬀerence-in-diﬀerences (DiD) method for a time-varying continuous treatment and multiple time periods. Our framework assesses the average treatment eﬀect on the treated (ATET) when comparing two non-zero treatment doses. The identification is based on a conditional parallel trend assumption imposed on the mean potential outcome under the lower dose, given observed covariates and past treatment histories. We employ kernel-based ATET estimators for repeated cross-sections and panel data adopting the double/debiased machine learning framework to control for covariates and past treatment histories in a data-adaptive manner. We also demonstrate the asymptotic normality of our estimation approach under specific regularity conditions. In a simulation study, we find a compelling finite sample performance of undersmoothed versions of our estimators in setups with several thousand observations.
 
-* Approximate Sparsity Class and Minimax Estimation. [[link]](https://arxiv.org/abs/2508.09278){:target="_blank" rel="noopener"}
+* Approximate Sparsity Class and Minimax Estimation. [[Link]](https://arxiv.org/abs/2508.09278){:target="_blank" rel="noopener"}
 
   **Abstract**: Motivated by the orthogonal series density estimation in $L^2([0,1],\mu)$, in this project we consider a new class of functions that we call the approximate sparsity class. This new class is characterized by the rate of decay of the individual Fourier coefficients for a given orthonormal basis. We establish the $L^2([0,1],\mu)$ metric entropy of such class, with which we show the minimax rate of convergence. For the density subset in this class, we propose an adaptive density estimator based on a hard-thresholding procedure that achieves this minimax rate up to a $\log$ term.
 
